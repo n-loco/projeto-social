@@ -44,3 +44,37 @@ main {
     top: 81px;
     left: 23px;
 }
+
+#tela > p {
+    color: white;
+}
+
+#redes {
+    text-align: right;
+}
+
+#redes img {
+    border-radius: 50%;
+
+    width: 60px;
+    margin: 10px;
+
+    box-sizing: border-box;
+    box-shadow: 4px 4px 6px #0000006e;
+
+    transition: transform 0.08s;
+}
+
+#redes img:hover {
+    border: 2px solid #addce2;
+
+    transform: translate(-3px, -3px);
+    
+    box-shadow: 4px 4px 8px #0000008a;
+}
+
+#redes img:active {
+    border-color: white;
+
+    transform: translate(-1px, -1px);
+}
